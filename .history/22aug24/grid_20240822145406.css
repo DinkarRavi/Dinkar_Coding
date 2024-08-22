@@ -1,0 +1,22 @@
+
+div{
+#parent{ 
+border: 2px;
+background-color: salmon;
+height: 600px;
+}
+/* Selects the second element of div siblings */
+div:nth-child(2) {
+  background: red;
+}
+
+
+li:nth-child(2) {
+  background: lightgreen;
+}
+
+
+:nth-child(3) {
+  background: yellow;
+}
+}

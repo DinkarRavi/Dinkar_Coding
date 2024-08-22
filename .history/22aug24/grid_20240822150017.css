@@ -1,0 +1,22 @@
+
+
+#parent{ 
+border: 2px;
+background-color: salmon;
+height: 600px;
+
+}
+#parent div{
+div:nth-child(1) {
+  background: red;
+}
+div:nth-o(2) {
+    background: blue;
+  }
+  div:nth-child(3) {
+    background: green;
+  }
+  div:nth-child(4) {
+    background: magenta;
+  }
+}

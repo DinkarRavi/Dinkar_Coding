@@ -1,0 +1,44 @@
+
+
+#parent{ 
+border: 2px solid salmon;
+
+height: 500px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr; 
+/* grid-template-rows: 200px 200px;  */
+/* grid-auto-rows: 50px;
+grid-template-columns:100px;  */
+/* grid-auto-flow: column; */
+}
+div{
+div:nth-child(1) {
+  background: red;
+}
+div:nth-of-type(2) {
+    background: blue;
+  }
+  div:nth-child(3) {
+    background: t;
+  }
+  div:nth-child(4) {
+    background: magenta;
+  }
+  div:nth-child(5) {
+    background: red;
+  }
+  div:nth-of-type(6) {
+      background: blue;
+    }
+    div:nth-child(7) {
+      background: green;
+    }
+    div:nth-child(8) {
+      background: magenta;
+    }
+    div:nth-child(9) {
+        background:peru;
+      }
+      div:nth-child(10) {
+        background: green;}
+}

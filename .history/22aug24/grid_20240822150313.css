@@ -1,0 +1,40 @@
+
+
+#parent{ 
+border: 2px;
+background-color: salmon;
+height: 600px;
+display: grid;
+grid-template-columns: 200px 200px;
+}
+div{
+div:nth-child(1) {
+  background: red;
+}
+div:nth-of-type(2) {
+    background: blue;
+  }
+  div:nth-child(3) {
+    background: green;
+  }
+  div:nth-child(4) {
+    background: magenta;
+  }
+  div:nth-child(5) {
+    background: red;
+  }
+  div:nth-of-type(6) {
+      background: blue;
+    }
+    div:nth-child(7) {
+      background: green;
+    }
+    div:nth-child(8) {
+      background: magenta;
+    }
+    div:nth-child(7) {
+        background: green;
+      }
+      div:nth-child(8) {
+        background: magenta;}
+}

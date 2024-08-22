@@ -1,0 +1,21 @@
+
+div{
+#parent{ 
+border: 2px;
+background-color: salmon;
+height: 600px;
+}
+
+div:nth-child(1) {
+  background: red;
+}
+div:nth-child(2) {
+    background: blue;
+  }
+  iv:nth-child(3) {
+    background: green;
+  }
+  iv:nth-child(4) {
+    background: magenta;
+  }
+}
